@@ -1,15 +1,12 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 export default function Resturant_Hero() {
     return (
         <section className="mt-3 flex flex-col p-5 ">
             <div className="flex flex-row gap-2">
-                <img
-                    src="/svg/location.svg"
-                    className="w-[14px]  h-[14px]"
-                    alt=""
-                />
+                <Link href={'/QR/id'}>s</Link>
                 <p className="text-[12px] font-medium">Fevvaraler meydanı 23</p>
             </div>
             <div className="w-full relative mt-3">
