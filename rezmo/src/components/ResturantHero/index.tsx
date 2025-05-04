@@ -6,7 +6,13 @@ export default function Resturant_Hero() {
     return (
         <section className="mt-3 flex flex-col p-5 ">
             <div className="flex flex-row gap-2">
-                <Link href={'/QR/id'}>s</Link>
+                <Link href={'/QR/id/1'}>
+                    <img
+                        src="/svg/location.svg"
+                        className="w-[14px]  h-[14px]"
+                        alt=""
+                    />
+                </Link>
                 <p className="text-[12px] font-medium">Fevvaraler meydanı 23</p>
             </div>
             <div className="w-full relative mt-3">
