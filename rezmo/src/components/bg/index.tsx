@@ -3,7 +3,7 @@ import React from 'react';
 
 export default function BG() {
     return (
-        <div className=" absolute w-screen h-screen top-0  z-[-1]">
+        <div className=" absolute w-screen h-screen top-0 left-0  z-[-1]">
             <Image
                 src="/images/ChefHatIcon.png"
                 width={160}
